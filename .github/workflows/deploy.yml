@@ -33,6 +33,16 @@ jobs:
         run: npm run build
         env:
           CI: true
+          NODE_ENV: production
+      
+      - name: Check build output
+        run: |
+          echo "Checking build output..."
+          ls -la out/
+          echo "Checking for CSS files..."
+          find out/ -name "*.css" -type f
+          echo "Checking for HTML files..."
+          find out/ -name "*.html" -type f
       
       - name: Setup Pages
         uses: actions/configure-pages@v4

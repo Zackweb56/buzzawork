@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/buzzawork/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/buzzawork' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
