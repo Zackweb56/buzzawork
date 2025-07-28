@@ -16,9 +16,9 @@ export default function Hero({ data, language }: HeroProps) {
   const [heroImageIndex, setHeroImageIndex] = useState(0)
 
   const heroImages = [
-    "/placeholder.svg?height=600&width=1200",
-    "/placeholder.svg?height=600&width=1200",
-    "/placeholder.svg?height=600&width=1200",
+    "/hero-placeholder.svg",
+    "/hero-placeholder.svg",
+    "/hero-placeholder.svg",
   ]
 
   // Hero image rotation
@@ -93,7 +93,7 @@ export default function Hero({ data, language }: HeroProps) {
           <div className="relative">
             <div className="relative bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-2xl p-6 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
               <Image
-                src={heroImages[heroImageIndex] || "/placeholder.svg"}
+                src={heroImages[heroImageIndex] || "/hero-placeholder.svg"}
                 alt="BUZZWORK Print Shop"
                 width={500}
                 height={350}

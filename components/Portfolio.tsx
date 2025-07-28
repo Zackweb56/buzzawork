@@ -26,11 +26,11 @@ export default function Portfolio({ data, language }: PortfolioProps) {
               className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <Image
-                src={`/placeholder.svg?height=300&width=400&query=professional print design ${item} creative marketing material`}
-                alt={`Portfolio item ${item}`}
+                src="/portfolio-placeholder.svg"
+                alt={`${item} - BUZZWORK Portfolio`}
                 width={400}
                 height={300}
-                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                className="w-full h-48 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">

@@ -44,11 +44,11 @@ export default function About({ data, language }: AboutProps) {
 
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=400&width=500"
-              alt="About BUZZWORK"
+              src="/about-placeholder.svg"
+              alt="BUZZWORK About"
               width={500}
               height={400}
-              className="rounded-xl shadow-xl"
+              className="rounded-lg shadow-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl"></div>
           </div>

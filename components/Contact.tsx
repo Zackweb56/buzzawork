@@ -152,13 +152,13 @@ export default function Contact({ data, language, onOrderFormToggle }: ContactPr
               <CardContent className="p-0 h-full">
                 <div className="relative h-full min-h-[500px]">
                   {/* Placeholder Map */}
-                  <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
+                  <div className="relative bg-slate-100 rounded-lg overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=500&width=500"
-                      alt="BUZZWORK Location Map"
+                      src="/contact-placeholder.svg"
+                      alt="BUZZWORK Location"
                       width={500}
                       height={500}
-                      className="w-full h-full object-cover"
+                      className="w-full h-64 object-cover"
                     />
                   </div>
 
