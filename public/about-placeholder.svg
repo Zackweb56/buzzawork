@@ -1,1 +1,15 @@
- 
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad3)"/>
+  <rect x="25" y="25" width="450" height="350" fill="white" opacity="0.1" rx="15"/>
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">About</text>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white" opacity="0.8">BUZZWORK</text>
+  <circle cx="150" cy="280" r="25" fill="white" opacity="0.2"/>
+  <circle cx="350" cy="280" r="25" fill="white" opacity="0.2"/>
+  <rect x="200" y="270" width="100" height="30" fill="white" opacity="0.2" rx="15"/>
+</svg> 

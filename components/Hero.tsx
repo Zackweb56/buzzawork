@@ -30,7 +30,7 @@ export default function Hero({ data, language }: HeroProps) {
   }, [])
 
   return (
-    <section className="pt-20 pb-16 px-4 relative overflow-hidden">
+    <section className="pt-80 pb-16 px-4 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50"></div>
       <div className="absolute top-16 left-8 w-56 h-56 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse"></div>
