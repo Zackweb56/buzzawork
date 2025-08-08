@@ -14,16 +14,16 @@ interface HeaderProps {
 export default function Header({ language, onLanguageChange, onCalculatorToggle, onOrderFormToggle }: HeaderProps) {
   return (
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 z-50">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 rounded-xl flex items-center justify-center shadow-lg">
-            <Printer className="w-7 h-7 text-white" />
+      <div className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
+        <div className="flex items-center space-x-2 sm:space-x-3">
+          <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 rounded-xl flex items-center justify-center shadow-lg">
+            <Printer className="w-5 h-5 sm:w-7 sm:h-7 text-white" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               BUZZWORK
             </h1>
-            <p className="text-xs text-slate-600 font-medium">مطبعة • IMPRIMERIE</p>
+            <p className="text-xs text-slate-600 font-medium hidden sm:block">مطبعة • IMPRIMERIE</p>
           </div>
         </div>
 
@@ -45,34 +45,34 @@ export default function Header({ language, onLanguageChange, onCalculatorToggle,
           </Link>
         </nav>
 
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-1 sm:space-x-3">
           <Button
             variant="outline"
             size="sm"
             onClick={() => onLanguageChange(language === "fr" ? "ar" : "fr")}
-            className="flex items-center space-x-2 hover:bg-blue-50"
+            className="flex items-center space-x-1 hover:bg-blue-50 px-2 sm:px-3"
           >
             <Globe className="w-4 h-4" />
-            <span>{language === "fr" ? "العربية" : "Français"}</span>
+            <span className="text-xs sm:text-sm">{language === "fr" ? "عربية" : "Fr"}</span>
           </Button>
           <Button
             variant="outline"
             size="sm"
             onClick={onCalculatorToggle}
-            className="flex items-center space-x-2 hover:bg-purple-50"
+            className="flex items-center space-x-1 hover:bg-purple-50 px-2 sm:px-3"
           >
             <Calculator className="w-4 h-4" />
-            <span className="hidden sm:inline">
+            <span className="hidden sm:inline text-xs sm:text-sm">
               {language === "fr" ? "Calculateur" : "الحاسبة"}
             </span>
           </Button>
           <Button
             size="sm"
             onClick={onOrderFormToggle}
-            className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white"
+            className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-2 sm:px-3"
           >
-            <MessageCircle className="w-4 h-4 mr-2" />
-            <span className="hidden sm:inline">{language === "fr" ? "Commander" : "اطلب"}</span>
+            <MessageCircle className="w-4 h-4 sm:mr-2" />
+            <span className="hidden sm:inline text-xs sm:text-sm">{language === "fr" ? "Commander" : "اطلب"}</span>
           </Button>
         </div>
       </div>
