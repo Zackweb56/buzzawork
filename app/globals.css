@@ -86,5 +86,24 @@
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
+    }
+    
+    html {
+      overflow-x: hidden;
+    }
+    }
+    
+    /* Prevent horizontal scroll on mobile */
+    @layer utilities {
+      .prevent-overflow {
+        max-width: 100vw;
+        overflow-x: hidden;
+      }
+    
+      .break-anywhere {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        hyphens: auto;
   }
 }

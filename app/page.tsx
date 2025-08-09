@@ -18,7 +18,7 @@ import CalculatorModal from "@/components/CalculatorModal"
 import OrderFormModal from "@/components/OrderFormModal"
 import WhatsAppButton from "@/components/WhatsAppButton"
 
-export default function BuzzworkLanding() {
+export default function BUZZAWORKLanding() {
   const [language, setLanguage] = useState("fr")
   const [showCalculator, setShowCalculator] = useState(false)
   const [showOrderForm, setShowOrderForm] = useState(false)
@@ -43,7 +43,7 @@ export default function BuzzworkLanding() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50" dir={language === "ar" ? "rtl" : "ltr"}>
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 prevent-overflow" dir={language === "ar" ? "rtl" : "ltr"}>
       {/* Header */}
       <Header
         language={language}

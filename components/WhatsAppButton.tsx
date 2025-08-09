@@ -7,7 +7,7 @@ interface WhatsAppButtonProps {
 
 export default function WhatsAppButton({ language, whatsappNumber }: WhatsAppButtonProps) {
   const handleWhatsAppClick = () => {
-    const message = `Bonjour BUZZWORK! Je souhaite obtenir plus d'informations sur vos services.`
+    const message = `Bonjour BUZZAWORK! Je souhaite obtenir plus d'informations sur vos services.`
     const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }

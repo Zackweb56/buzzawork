@@ -28,7 +28,7 @@ export default function OrderFormModal({ isOpen, onClose, data, language, orderC
   const [orderDetails, setOrderDetails] = useState("")
 
   const sendWhatsAppOrder = () => {
-    const message = `Bonjour BUZZWORK! 
+    const message = `Bonjour BUZZAWORK! 
     
 Nom: ${clientName}
 Téléphone: ${clientPhone}

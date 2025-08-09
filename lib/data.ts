@@ -137,10 +137,10 @@ export const content: Record<string, ContentData> = {
       ],
     },
     about: {
-      title: "À Propos de BUZZWORK",
+      title: "À Propos de BUZZAWORK",
       subtitle: "Votre Partenaire Créatif de Confiance",
       description:
-        "Depuis plus de 10 ans, BUZZWORK révolutionne l'industrie de l'impression et du marketing. Notre équipe passionnée combine expertise technique et créativité pour donner vie à vos projets les plus ambitieux.",
+        "Depuis plus de 10 ans, BUZZAWORK révolutionne l'industrie de l'impression et du marketing. Notre équipe passionnée combine expertise technique et créativité pour donner vie à vos projets les plus ambitieux.",
       values: [
         {
           title: "Innovation",
@@ -219,7 +219,7 @@ export const content: Record<string, ContentData> = {
       ],
     },
     whyChoose: {
-      title: "Pourquoi Choisir BUZZWORK ?",
+      title: "Pourquoi Choisir BUZZAWORK ?",
       subtitle: "Les Raisons de Notre Succès",
       reasons: [
         {
@@ -274,7 +274,7 @@ export const content: Record<string, ContentData> = {
       title: "Témoignages Clients",
       items: [
         {
-          text: "Service exceptionnel et qualité irréprochable. BUZZWORK a dépassé nos attentes.",
+          text: "Service exceptionnel et qualité irréprochable. BUZZAWORK a dépassé nos attentes.",
           author: "Marie Dubois",
           company: "Restaurant Le Gourmet",
         },
@@ -336,10 +336,10 @@ export const content: Record<string, ContentData> = {
       ],
     },
     about: {
-      title: "حول BUZZWORK",
+      title: "حول BUZZAWORK",
       subtitle: "شريكك الإبداعي الموثوق",
       description:
-        "منذ أكثر من 10 سنوات، تُحدث BUZZWORK ثورة في صناعة الطباعة والتسويق. فريقنا المتحمس يجمع بين الخبرة التقنية والإبداع لإحياء مشاريعك الأكثر طموحاً.",
+        "منذ أكثر من 10 سنوات، تُحدث BUZZAWORK ثورة في صناعة الطباعة والتسويق. فريقنا المتحمس يجمع بين الخبرة التقنية والإبداع لإحياء مشاريعك الأكثر طموحاً.",
       values: [
         {
           title: "الابتكار",
@@ -418,7 +418,7 @@ export const content: Record<string, ContentData> = {
       ],
     },
     whyChoose: {
-      title: "لماذا تختار BUZZWORK؟",
+      title: "لماذا تختار BUZZAWORK؟",
       subtitle: "أسباب نجاحنا",
       reasons: [
         {
@@ -473,7 +473,7 @@ export const content: Record<string, ContentData> = {
       title: "شهادات العملاء",
       items: [
         {
-          text: "خدمة استثنائية وجودة لا تشوبها شائبة. تجاوزت BUZZWORK توقعاتنا.",
+          text: "خدمة استثنائية وجودة لا تشوبها شائبة. تجاوزت BUZZAWORK توقعاتنا.",
           author: "مريم دوبوا",
           company: "مطعم الذواقة",
         },

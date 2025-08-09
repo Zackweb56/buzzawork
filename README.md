@@ -1,6 +1,6 @@
-# BUZZWORK - Printing Services Landing Page
+# BUZZAWORK - Printing Services Landing Page
 
-A modern, responsive landing page for BUZZWORK printing services built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive landing page for BUZZAWORK printing services built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 
@@ -142,8 +142,8 @@ All components are in the `components/` directory and can be customized as neede
 
 ## License
 
-This project is private and proprietary to BUZZWORK.
+This project is private and proprietary to BUZZAWORK.
 
 ---
 
-**BUZZWORK** - Your Creative Printing Partner
+**BUZZAWORK** - Your Creative Printing Partner

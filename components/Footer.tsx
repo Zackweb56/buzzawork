@@ -25,7 +25,7 @@ export default function Footer({ language, contactData }: FooterProps) {
                 <Printer className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">BUZZWORK</h3>
+                <h3 className="text-xl font-bold">BUZZAWORK</h3>
                 <p className="text-xs text-slate-400">مطبعة • IMPRIMERIE</p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function Footer({ language, contactData }: FooterProps) {
         <div className="border-t border-slate-800 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-slate-400 mb-3 md:mb-0 text-sm">
-              &copy; 2024 BUZZWORK. {language === "fr" ? "Tous droits réservés." : "جميع الحقوق محفوظة."}
+              &copy; 2024 BUZZAWORK. {language === "fr" ? "Tous droits réservés." : "جميع الحقوق محفوظة."}
             </p>
             <div className="flex items-center space-x-4 text-xs text-slate-400">
               <Link href="#" className="hover:text-white transition-colors">

@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/buzzawork/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/buzzawork' : '',
   basePath: process.env.NODE_ENV === 'production' ? '/buzzawork' : '',
   eslint: {
     ignoreDuringBuilds: true,
@@ -12,6 +12,10 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    loader: 'default',
+  },
+  experimental: {
+    optimizeFonts: false,
   },
 }
 

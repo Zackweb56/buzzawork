@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
+// Optional: Keep Geist fonts but with fallbacks
+// import { GeistSans } from 'geist/font/sans'
+// import { GeistMono } from 'geist/font/mono'
+
 export const metadata: Metadata = {
-  title: 'BUZZWORK - Printing Services',
-  description: 'Modern printing services landing page for BUZZWORK',
+  title: 'BUZZAWORK - Printing Services',
+  description: 'Modern printing services landing page for BUZZAWORK',
   generator: 'Next.js',
 }
 
@@ -19,9 +21,10 @@ export default function RootLayout({
       <head>
         <style>{`
 html {
-  font-family: ${GeistSans.style.fontFamily};
-  --font-sans: ${GeistSans.variable};
-  --font-mono: ${GeistMono.variable};
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
         `}</style>
       </head>

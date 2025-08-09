@@ -16,9 +16,9 @@ export default function Hero({ data, language }: HeroProps) {
   const [heroImageIndex, setHeroImageIndex] = useState(0)
 
   const heroImages = [
-    "/hero-placeholder.svg",
-    "/hero-placeholder.svg",
-    "/hero-placeholder.svg",
+    "/hero-simple.svg",
+    "/hero-image.svg", 
+    "/placeholder.jpg",
   ]
 
   // Hero image rotation
@@ -93,11 +93,13 @@ export default function Hero({ data, language }: HeroProps) {
           <div className="relative mt-8 lg:mt-0">
             <div className="relative bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-2xl p-4 sm:p-6 shadow-2xl transform rotate-1 sm:rotate-2 hover:rotate-0 transition-transform duration-500">
               <Image
-                src={heroImages[heroImageIndex] || "/hero-placeholder.svg"}
-                alt="BUZZWORK Print Shop"
+                src="/hero-simple.svg"
+                alt="BUZZAWORK Print Shop"
                 width={500}
                 height={350}
                 className="rounded-xl mx-auto shadow-lg w-full h-auto"
+                priority
+                onError={(error) => console.error('Error loading image:', error)}
               />
 
               {/* Floating Elements */}

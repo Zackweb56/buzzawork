@@ -40,7 +40,7 @@ export default function Contact({ data, language, onOrderFormToggle }: ContactPr
                       variant="outline"
                       size="sm"
                       className="mt-2 hover:bg-blue-50 text-xs"
-                      onClick={() => window.open("https://maps.google.com", "_blank")}
+                      onClick={() => window.open("https://www.google.com/maps/search/Hay+saada+en+face+lycée+Zarqtouni+Béni+Mellal+23000", "_blank")}
                     >
                       <Navigation className="w-3 h-3 mr-1" />
                       {language === "fr" ? "Itinéraire" : "الاتجاهات"}
@@ -151,14 +151,18 @@ export default function Contact({ data, language, onOrderFormToggle }: ContactPr
             <Card className="border-0 shadow-xl overflow-hidden h-full">
               <CardContent className="p-0 h-full">
                 <div className="relative h-full min-h-[500px]">
-                  {/* Placeholder Map */}
-                  <div className="relative bg-slate-100 rounded-lg overflow-hidden">
-                    <Image
-                      src="/contact-placeholder.svg"
-                      alt="BUZZWORK Location"
-                      width={500}
-                      height={500}
-                      className="w-full h-64 object-cover"
+                  {/* Real Google Maps */}
+                  <div className="relative bg-slate-100 rounded-lg overflow-hidden h-full">
+                    <iframe
+                      src="https://maps.google.com/maps?q=Hay+saada+en+face+lycée+Zarqtouni,+Béni+Mellal+23000,+Morocco&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                      width="100%"
+                      height="500"
+                      style={{ border: 0 }}
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="BUZZAWORK Location - Hay saada en face lycée Zarqtouni, Béni Mellal"
+                      className="w-full h-full rounded-lg"
                     />
                   </div>
 
@@ -181,7 +185,7 @@ export default function Contact({ data, language, onOrderFormToggle }: ContactPr
                             <Building className="w-4 h-4 text-white" />
                           </div>
                           <div>
-                            <h4 className="font-semibold text-slate-800 text-sm">BUZZWORK</h4>
+                            <h4 className="font-semibold text-slate-800 text-sm">BUZZAWORK</h4>
                             <p className="text-xs text-slate-600">
                               {language === "fr" ? "Imprimerie & Marketing" : "مطبعة وتسويق"}
                             </p>
@@ -191,7 +195,7 @@ export default function Contact({ data, language, onOrderFormToggle }: ContactPr
                           <Button
                             size="sm"
                             className="bg-blue-600 hover:bg-blue-700 text-white text-xs"
-                            onClick={() => window.open("https://maps.google.com", "_blank")}
+                            onClick={() => window.open("https://www.google.com/maps/search/Hay+saada+en+face+lycée+Zarqtouni+Béni+Mellal+23000", "_blank")}
                           >
                             <Navigation className="w-3 h-3 mr-1" />
                             {language === "fr" ? "Itinéraire" : "الاتجاهات"}

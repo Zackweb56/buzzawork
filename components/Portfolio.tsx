@@ -26,8 +26,8 @@ export default function Portfolio({ data, language }: PortfolioProps) {
               className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <Image
-                src="/portfolio-placeholder.svg"
-                alt={`${item} - BUZZWORK Portfolio`}
+                src="/portfolio-image.svg"
+                alt={`${item} - BUZZAWORK Portfolio`}
                 width={400}
                 height={300}
                 className="w-full h-48 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"

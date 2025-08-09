@@ -1,0 +1,71 @@
+<svg width="500" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#heroGradient1)" rx="20"/>
+  
+  <!-- Main Content Area -->
+  <rect x="30" y="30" width="440" height="290" fill="url(#cardGradient1)" rx="15" opacity="0.9"/>
+  
+  <!-- Printer Icon -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="10" width="40" height="25" fill="#1E293B" rx="3"/>
+    <rect x="5" y="15" width="30" height="15" fill="#F1F5F9" rx="2"/>
+    <rect x="10" y="40" width="20" height="15" fill="#64748B" rx="2"/>
+    <rect x="12" y="42" width="16" height="2" fill="#F1F5F9"/>
+    <rect x="12" y="46" width="16" height="2" fill="#F1F5F9"/>
+    <rect x="12" y="50" width="16" height="2" fill="#F1F5F9"/>
+  </g>
+  
+  <!-- BUZZAWORK Text -->
+  <text x="250" y="140" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">BUZZAWORK</text>
+  <text x="250" y="170" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white" opacity="0.9">Print & Design Solutions</text>
+  
+  <!-- Design Elements -->
+  <g transform="translate(350, 80)">
+    <!-- Color Palette -->
+    <circle cx="0" cy="0" r="8" fill="#EF4444"/>
+    <circle cx="20" cy="0" r="8" fill="#F59E0B"/>
+    <circle cx="40" cy="0" r="8" fill="#10B981"/>
+    <circle cx="60" cy="0" r="8" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Paper Stack -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="0" width="60" height="80" fill="#F8FAFC" rx="3" opacity="0.8"/>
+    <rect x="5" y="5" width="60" height="80" fill="#E2E8F0" rx="3" opacity="0.6"/>
+    <rect x="10" y="10" width="60" height="80" fill="#CBD5E1" rx="3" opacity="0.4"/>
+  </g>
+  
+  <!-- Business Cards -->
+  <g transform="translate(300, 220)">
+    <rect x="0" y="0" width="80" height="50" fill="white" rx="4" opacity="0.9"/>
+    <rect x="5" y="5" width="70" height="8" fill="#3B82F6" rx="2"/>
+    <rect x="5" y="18" width="40" height="4" fill="#64748B" rx="1"/>
+    <rect x="5" y="25" width="50" height="4" fill="#64748B" rx="1"/>
+    <rect x="5" y="32" width="35" height="4" fill="#64748B" rx="1"/>
+  </g>
+  
+  <!-- Decorative Dots -->
+  <circle cx="150" cy="80" r="4" fill="white" opacity="0.6"/>
+  <circle cx="380" cy="120" r="3" fill="white" opacity="0.5"/>
+  <circle cx="100" cy="150" r="2" fill="white" opacity="0.7"/>
+  <circle cx="420" cy="200" r="3" fill="white" opacity="0.4"/>
+  
+  <!-- Quality Badge -->
+  <g transform="translate(380, 240)">
+    <circle cx="0" cy="0" r="25" fill="#10B981" opacity="0.9"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">★</text>
+    <text x="0" y="-8" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">QUALITY</text>
+  </g>
+</svg>
